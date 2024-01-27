@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(#8b86d3, #bc78b9);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .main {
+    background-color: white;
+    display:grid;
+    margin: 40px 420px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+  }
+  .main div{
+    margin: 20px;
+  }
+  .main div input{
+    font-weight: bold;
+    height:25px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  select{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 30px;
+    font-weight:bold;
+  }
+  button {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+  }
+  button:hover{
+    color:yellow;
+  }
+
+  #result {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
